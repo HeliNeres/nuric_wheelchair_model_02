@@ -57,7 +57,7 @@ After the installation of Ubuntu 16.04, ROS Kinetic and Gazebo 7:
 
    ```bash
    $ cd catkin_ws/src
-   $ git clone https://github.com/patilnabhi/nuric_wheelchair_model_02.git
+   $ git clone https://github.com/HeliNeres/nuric_wheelchair_model_02.git
    ```
    
 3. **The 3D models and world files were downloaded as follows:**
