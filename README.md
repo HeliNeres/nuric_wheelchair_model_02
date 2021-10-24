@@ -64,25 +64,17 @@ After the installation of Ubuntu 16.04, ROS Kinetic and Gazebo 7:
 
    Some 3D models and worlds were made to test the wheelchair.
 
-   1. At first we should go to the personal folder and press Ctrl+H, to show the hidenn folders:
-
-      ![image-20211008155936580](/home/heli/snap/typora/42/.config/Typora/typora-user-images/image-20211008155936580.png)
+   1. At first we should go to the personal folder and press Ctrl+H, to show the hidenn folders.
 
    3. Hidden folders will have a dot in front of the folder name, go into the .gazebo/models folder and paste all the downloaded and extracted models (https://github.com/osrf/gazebo_models). These models are official gazebo but the first time we open the gazebo they are not loaded, they are downloaded slowly in the background, we do this to resolve this issue.
 
    3. In the same folder mentioned above (.gazebo/models), we will put this downloaded and extracted  models (https://drive.google.com/drive/folders/1eCY0whsAKlkAV1njhwJ4ldrsXNSLktvn?usp=sharing). After that, the folder should contain the standart gazebo models and ne new ones created by the GIPAR students.
 
-      ![image-20211008162415277](/home/heli/snap/typora/42/.config/Typora/typora-user-images/image-20211008162415277.png)
-
-   4. The selected folders in the image above are some of the models created by the students. To test them we should open Gazebo at fist.
+   4. To test the models created by the GIPAR students we should open Gazebo at fist.
 
    5. When open Gazebo go to the insert tab, there is a list of 3D objects, look for Wheelchair_blue_V2. By clicking on this name you will notice that the computer will darken the screen and it will take a while to load, after a while a wheelchair will appear blue, you can also test other 3D objects like 'Instruments', among others on the list but some 3D models have many polygons, are big and heavy, demanding a lot from the computer.
 
-      ![image-20211008163523189](/home/heli/snap/typora/42/.config/Typora/typora-user-images/image-20211008163523189.png)
-
    6. Now we will download the worlds modeled with these 3D objects mentioned above (https://drive.google.com/drive/folders/1lyt8zwWRCWPFYftUvpOsjq1Ecszys3uI?usp=sharing). After extracting, put them in the nuric_wheelchair_model_02/world folder.
-
-      ![image-20211008163639569](/home/heli/snap/typora/42/.config/Typora/typora-user-images/image-20211008163639569.png)
 
    7. To test the worlds, right click on some blank part of the words folder and choose 'open in terminal', and type:
 
@@ -90,7 +82,6 @@ After the installation of Ubuntu 16.04, ROS Kinetic and Gazebo 7:
 
       Wait between 3 to 10 minutes for the gazebo to open the world church_V2.world.
 
-      ![image-20211008163942167](/home/heli/snap/typora/42/.config/Typora/typora-user-images/image-20211008163942167.png)
 
 
 4. **To use the chair in the mentioned environments, some adjustments were made:**
